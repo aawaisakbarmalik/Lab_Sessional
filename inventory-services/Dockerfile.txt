@@ -1,0 +1,8 @@
+From node:14
+WORKDIR C:\Users\aawai\Lab_Sessional\Cafe_Management_System\inventory-services>
+
+COPY package*.json
+Run npm install
+COPY..
+Expose 3000
+CMD["node","app.js"]
